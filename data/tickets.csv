@@ -1,0 +1,81 @@
+id,lang,text,department,priority,escalate
+p01,en,"I transferred 150,000 tenge to my landlord this morning, the money left my account but he says nothing arrived.",payments,P1,false
+p02,en,"Why was I charged a 500 tenge fee for a transfer between my own accounts?",payments,P3,false
+p03,en,"My card was declined at the gas station even though I have 80k on the balance. Please check what's wrong.",payments,P2,false
+p04,en,"I was charged twice for the same purchase at Magnum, 12,400 tenge each time. Please refund one.",payments,P2,false
+p05,en,"How long does a refund from an online store usually take to come back to my card?",payments,P3,false
+p06,en,"This is the third time my transfer to Russia is stuck and the money is gone from my balance. I've been your client for 6 years and I'm done, close my account if you can't fix it today.",payments,P1,true
+p07,en,"All my money is frozen on the account and I can't withdraw anything. I need to pay for my mother's surgery today.",payments,P1,false
+p08,en,"Can I increase my daily transfer limit to 2 million tenge?",payments,P3,false
+p09,en,"I accidentally sent 30,000 tenge to the wrong phone number five minutes ago. Can you cancel it?",payments,P1,false
+p10,en,"The cashback for October still hasn't been credited to my card.",payments,P3,false
+p11,en,"You charged me a currency conversion fee way higher than the rate shown in the app. I'm filing a complaint with the financial regulator.",payments,P3,true
+p12,ru,"Перевёл деньги на карту другого банка, деньги списались, но не дошли уже 3 дня.",payments,P1,false
+p13,ru,"Почему с меня сняли комиссию за обслуживание карты? Обещали бесплатно.",payments,P3,false
+p14,ru,"Оплата в интернет-магазине не проходит, пишет 'операция отклонена', хотя деньги на карте есть.",payments,P2,false
+p15,ru,"Списали деньги дважды за такси. Верните, пожалуйста, лишние 2 300 тг.",payments,P2,false
+p16,ru,"Как пополнить карту через терминал без комиссии?",payments,P3,false
+p17,ru,"Мне срочно нужно оплатить штраф сегодня, а перевод висит в статусе 'в обработке' с утра. Деньги уже списаны!",payments,P1,false
+p18,ru,"Безобразие! Второй месяц не можете вернуть мне 45 000 за отменённый заказ. Если завтра не вернёте, иду в суд.",payments,P2,true
+p19,kk,"Аударым жасадым, ақша шоттан шегерілді, бірақ алушыға түспеді.",payments,P1,false
+p20,kk,"Карта арқылы төлем өтпей жатыр, балансымда ақша бар.",payments,P2,false
+p21,kk,"Басқа банкке аударым үшін комиссия қанша?",payments,P3,false
+p22,mixed,"Привет, мой перевод на Kaspi завис, деньги списались, но не пришли, help please",payments,P1,false
+t01,en,"The app crashes every time I open the Transfers tab on my iPhone 14.",technical,P2,false
+t02,en,"I'm not receiving the SMS code to log in. Tried 5 times.",technical,P2,false
+t03,en,"Dark mode makes the transaction history unreadable, the text is black on dark grey.",technical,P3,false
+t04,en,"Face ID login stopped working after the latest update, I have to type my password every time.",technical,P3,false
+t05,en,"I can't log into the app at all, it says 'server error 503'. I need to pay my bills today.",technical,P2,false
+t06,en,"Your app has been broken for a week and I've wasted hours on it. Get me a manager on the phone or I'm switching to another bank.",technical,P2,true
+t07,en,"The statement PDF download gives me a blank file.",technical,P3,false
+t08,en,"Push notifications for incoming payments don't arrive anymore.",technical,P3,false
+t09,en,"The app is extremely slow on my Android phone, every screen takes 10 seconds to load.",technical,P3,false
+t10,en,"I changed phones and now the app says my device is not trusted and won't let me in.",technical,P2,false
+t11,ru,"Приложение не открывается после обновления, белый экран.",technical,P2,false
+t12,ru,"Не приходит СМС-код для подтверждения входа.",technical,P2,false
+t13,ru,"В истории операций некоторые платежи отображаются два раза, хотя списание было одно.",technical,P3,false
+t14,ru,"Не могу привязать карту к Apple Pay, выдаёт ошибку.",technical,P3,false
+t15,ru,"Уже неделю не могу зайти в приложение! Ваша поддержка не отвечает. Буду жаловаться в Нацбанк.",technical,P2,true
+t16,ru,"Ошибка 'что-то пошло не так' при попытке изменить номер телефона в профиле.",technical,P3,false
+t17,kk,"Қосымша ашылмай жатыр, жаңартудан кейін қате шығады.",technical,P2,false
+t18,kk,"Кіру үшін SMS код келмейді.",technical,P2,false
+t19,mixed,"Қосымша постоянно вылетает, когда открываю платежи.",technical,P2,false
+t20,en,"The QR payment scanner doesn't open the camera, just a black screen.",technical,P3,false
+s01,en,"I just got a notification about a 95,000 tenge purchase in Dubai. I've never been there. Block my card!",security,P1,false
+s02,en,"I lost my wallet with my debit card in it. Please block the card.",security,P1,false
+s03,en,"Someone called me pretending to be from your bank and I gave them the code from the SMS. Now I see transfers I didn't make.",security,P1,false
+s04,en,"I got an email asking me to confirm my account details via a link. Is this really from you?",security,P1,false
+s05,en,"My account password was changed and I didn't do it. Now I'm locked out.",security,P1,false
+s06,en,"There are three small transactions of 100 tenge each to an online store I don't recognize.",security,P1,false
+s07,en,"My phone was stolen and the banking app was logged in.",security,P1,false
+s08,en,"You let a scammer empty my account, 400,000 tenge gone. I'm going to the police and the regulator and I will sue your bank.",security,P1,true
+s09,ru,"С моей карты списали 60 000 тенге, я эту операцию не совершал!",security,P1,false
+s10,ru,"Мне позвонили из 'службы безопасности банка' и попросили назвать код. Я не назвал, но это вы звонили?",security,P1,false
+s11,ru,"Украли телефон, на нём было ваше приложение. Заблокируйте всё срочно.",security,P1,false
+s12,ru,"Кто-то оформил кредит на моё имя через ваше приложение!",security,P1,false
+s13,ru,"Вы не защитили мои деньги от мошенников. Требую руководителя и полного возврата, иначе иду в прокуратуру.",security,P1,true
+s14,kk,"Картамды жоғалтып алдым, бұғаттаңызшы.",security,P1,false
+s15,kk,"Менің картамнан мен жасамаған төлем өтті.",security,P1,false
+s16,mixed,"Мне пришла SMS со ссылкой 'ваша карта заблокирована', I clicked it and entered my card number. What do I do?",security,P1,false
+s17,en,"Got a WhatsApp message from 'your bank' offering a 0% loan if I send a 5,000 tenge fee first. Is this a scam?",security,P1,false
+s18,en,"Someone logged into my account from a new device in Shymkent at 3am. It wasn't me.",security,P1,false
+g01,en,"What documents do I need to open a deposit account?",general,P3,false
+g02,en,"What is the interest rate on your 12-month savings deposit?",general,P3,false
+g03,en,"Do you have branches in Karaganda?",general,P3,false
+g04,en,"I'd love to see a budgeting feature in the app, like spending categories per month.",general,P3,false
+g05,en,"Can a foreigner with a residence permit open an account with you?",general,P3,false
+g06,en,"How do I order a metal premium card?",general,P3,false
+g07,en,"Just wanted to say your support team helped me a lot yesterday, thank you!",general,P3,false
+g08,en,"I need a bank reference letter for my visa appointment tomorrow morning. How can I get it today?",general,P2,false
+g09,en,"Your tariffs went up again without any warning. Honestly, I'm thinking of moving to another bank.",general,P3,true
+g10,en,"How do I close my account? I'm moving abroad next year.",general,P3,false
+g11,ru,"Какие документы нужны для открытия счёта для ИП?",general,P3,false
+g12,ru,"Есть ли у вас кредитные каникулы?",general,P3,false
+g13,ru,"Можно ли получить выписку на английском языке для посольства?",general,P3,false
+g14,ru,"Хочу поблагодарить сотрудницу отделения на Абая, очень вежливая.",general,P3,false
+g15,ru,"Сколько стоит обслуживание премиальной карты в месяц?",general,P3,false
+g16,ru,"Добавьте, пожалуйста, виджет баланса на главный экран.",general,P3,false
+g17,ru,"Вы поменяли условия кэшбэка задним числом, это обман. Требую разговора с руководством.",general,P3,true
+g18,kk,"Депозит ашу үшін қандай құжаттар керек?",general,P3,false
+g19,kk,"Бөлімшелеріңіз сенбі күні жұмыс істей ме?",general,P3,false
+g20,mixed,"Salem! Подскажите, можно ли открыть счёт в долларах онлайн?",general,P3,false
