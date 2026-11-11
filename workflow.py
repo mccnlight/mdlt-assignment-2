@@ -40,6 +40,8 @@ QUESTIONS = {
 }
 
 ESCALATE_THRESHOLD = 0.5
+# Below this decision confidence a human reviews the ticket (from the 95%-accuracy analysis).
+CONFIDENCE_THRESHOLD = 0.81
 
 
 def route(department, priority):
@@ -64,6 +66,7 @@ def decide_system_one(ticket):
         "escalate": answers["escalate"]["noul"] >= ESCALATE_THRESHOLD,
         "route": route(department, PRIORITIES[level]),
         "confidence": confidence,
+        "auto": confidence >= CONFIDENCE_THRESHOLD,  # False -> human review queue
         "p_escalate": answers["escalate"]["noul"],
         "valid": True,
         "latency": latency,

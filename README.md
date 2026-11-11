@@ -126,4 +126,13 @@ python analyze.py                               # results table + results/confid
 
 No API keys are stored in this repository.
 
+### Live demo
+
+```bash
+python demo.py        # type a ticket, or 1-5 for a preset (normal, mixed kk/ru, hidden instruction, angry, typos)
+python demo.py 3      # run one preset
+```
+
+Shows the System One probabilities for every option, the decision confidence and whether the ticket is auto-routed or sent to **human review** (confidence < 0.81, `CONFIDENCE_THRESHOLD` in `workflow.py`), next to the LLM's JSON answer and latency.
+
 Code: [`workflow.py`](workflow.py) (questions, rules, LLM prompt), [`decision_client.py`](decision_client.py), [`llm_client.py`](llm_client.py).
